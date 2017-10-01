@@ -2,7 +2,7 @@ body{
   overflow-y:scroll;
   padding: 0;
   margin: 0;
-  font-family: raleway;
+  font-family: Raleway-Regular;
   font-size: 22px;
   width: 960px;
   margin: 60px auto;
@@ -10,8 +10,8 @@ body{
 }
 
 @font-face{
-  font-family:ralewayimport;
-  src: url('raleway/Raleway-Regular.ttf');
+  font-family:Raleway-Regularimport;
+  src: url('Raleway-Regular.ttf');
   /*url('Raleway.eot') format('embedded-opentype'),
   url('Raleway.otf')format('opentype');*/
 }
