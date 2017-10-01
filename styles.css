@@ -18,12 +18,12 @@ body{
 a:link, a:visited {
     color: 808B96;
     text-decoration: none;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 
 
 a:hover, a:active {
-    background-color: 2C3E50;
+    color:2C3E50;
 }
 
 #h1
