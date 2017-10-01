@@ -1,0 +1,16 @@
+body{
+  overflow-y:scroll;
+  padding: 0;
+  margin: 0;
+  font-family: Raleway;
+  font-size: 22px;
+  width: 960px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+@font-face{
+  font-family: "Raleway";
+  src: url('Raleway.eot') format('embedded-opentype'),
+  url('Raleway.otf')format('opentype');
+}
