@@ -15,6 +15,16 @@ body{
   /*url('Raleway.eot') format('embedded-opentype'),
   url('Raleway.otf')format('opentype');*/
 }
+a:link, a:visited {
+    color: 808B96;
+    text-decoration: none;
+    /*display: inline-block;*/
+}
+
+
+a:hover, a:active {
+    background-color: 2C3E50;
+}
 
 #h1
 {
