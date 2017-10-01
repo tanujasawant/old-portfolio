@@ -1,0 +1,30 @@
+body{
+  overflow-y:scroll;
+  padding: 0;
+  margin: 0;
+  font-family: Raleway-Light;
+  font-size: 18px;
+  width: 1060px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+@font-face{
+  font-family:Raleway-Lightimport;
+  src: url('Raleway-Light.ttf');
+  /*url('Raleway.eot') format('embedded-opentype'),
+  url('Raleway.otf')format('opentype');*/
+}
+
+#h1
+{
+  font-family:Raleway-Lightimport;
+  letter-spacing: 4px;
+}
+#h2
+{
+  font-family:Raleway-Lightimport;
+  white-space:pre; 
+  letter-spacing: 2px;
+  margin:-20px
+}  
