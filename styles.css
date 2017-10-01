@@ -15,7 +15,22 @@ body{
   /*url('Raleway.eot') format('embedded-opentype'),
   url('Raleway.otf')format('opentype');*/
 }
+
 a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: red;
+}
+
+/*a:link, a:visited {
     color: 808B96;
     text-decoration: none;
     display: inline-block;
@@ -24,7 +39,7 @@ a:link, a:visited {
 
 a:hover, a:active {
     color:2C3E50;
-}
+}*/
 
 #h1
 {
