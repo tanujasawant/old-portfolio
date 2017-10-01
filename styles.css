@@ -10,7 +10,8 @@ body{
 }
 
 @font-face{
-  font-family: "Raleway";
-  src: url('Raleway.eot') format('embedded-opentype'),
-  url('Raleway.otf')format('opentype');
+  font-family:ralewayimport;
+  src: url('raleway/Raleway-Regular.ttf');
+  /*url('Raleway.eot') format('embedded-opentype'),
+  url('Raleway.otf')format('opentype');*/
 }
