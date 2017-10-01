@@ -17,8 +17,8 @@ body{
 }
 
 a:link, a:visited {
-    background-color: #f44336;
-    color: white;
+    background-color: #F8F9F9;
+    color: #808B96;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -27,7 +27,7 @@ a:link, a:visited {
 
 
 a:hover, a:active {
-    background-color: red;
+    color: #2C3E50;
 }
 
 /*a:link, a:visited {
