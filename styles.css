@@ -15,3 +15,9 @@ body{
   /*url('Raleway.eot') format('embedded-opentype'),
   url('Raleway.otf')format('opentype');*/
 }
+
+#main
+{
+  font-family:Raleway-Regularimport;
+}
+  
