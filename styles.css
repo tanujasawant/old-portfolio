@@ -2,7 +2,7 @@ body{
   overflow-y:scroll;
   padding: 0;
   margin: 0;
-  font-family: Raleway-Regular;
+  font-family: Raleway-Light;
   font-size: 18px;
   width: 1060px;
   margin: 60px auto;
@@ -10,19 +10,19 @@ body{
 }
 
 @font-face{
-  font-family:Raleway-Regularimport;
-  src: url('Raleway-Regular.ttf');
+  font-family:Raleway-Lightimport;
+  src: url('Raleway-Light.ttf');
   /*url('Raleway.eot') format('embedded-opentype'),
   url('Raleway.otf')format('opentype');*/
 }
 
 #h1
 {
-  font-family:Raleway-Regularimport;
+  font-family:Raleway-Lightimport;
   letter-spacing: 4px;
 }
 #h2
 {
-  font-family:Raleway-Regularimport;
+  font-family:Raleway-Lightimport;
   letter-spacing: 2px;
 }  
