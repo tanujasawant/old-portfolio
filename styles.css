@@ -24,6 +24,7 @@ body{
 #h2
 {
   font-family:Raleway-Lightimport;
+  white-space:pre; 
   letter-spacing: 2px;
   margin:-20px
 }  
