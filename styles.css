@@ -16,8 +16,13 @@ body{
   url('Raleway.otf')format('opentype');*/
 }
 
-#main
+#h1
 {
   font-family:Raleway-Regularimport;
+  letter-spacing: 4px;
 }
-  
+#h2
+{
+  font-family:Raleway-Regularimport;
+  letter-spacing: 2px;
+}  
