@@ -16,6 +16,9 @@ body{
   url('Raleway.otf')format('opentype');*/
 }
 
+p{
+font-family:Raleway-Lightimport;
+}
 #h1
 {
   font-family:Raleway-Lightimport;
