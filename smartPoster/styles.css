@@ -16,6 +16,28 @@ body{
   url('Raleway.otf')format('opentype');*/
 }
 
+a:link, a:visited {
+    background-color: #F8F9F9;
+    color: #808B96;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    color: #2C3E50;
+}
+
+/*a:link, a:visited {
+    color: 808B96;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    color:2C3E50;
+}*/
+
 #h1
 {
   font-family:Raleway-Lightimport;
@@ -26,5 +48,5 @@ body{
   font-family:Raleway-Lightimport;
   white-space:pre; 
   letter-spacing: 2px;
-  margin:-20px
+  margin:-50px
 }  
