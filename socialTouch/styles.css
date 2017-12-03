@@ -35,7 +35,9 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
 }
-
+p {
+    font-size: 14px;
+}
 
 a:hover, a:active {
     color: #2C3E50;
