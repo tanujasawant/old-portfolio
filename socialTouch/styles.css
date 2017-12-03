@@ -20,13 +20,15 @@ body{
 {
   font-family:Raleway-Lightimport;
   letter-spacing: 4px;
+   text-align: center
 }
 #h2
 {
   font-family:Raleway-Lightimport;
   white-space:pre; 
   letter-spacing: 2px;
-  margin:-50px
+  margin:-50px;
+   text-align: center
 }  
 a:link, a:visited {
     background-color: #F8F9F9;
