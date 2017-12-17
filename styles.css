@@ -51,7 +51,17 @@ a:hover, a:active {
   white-space:pre; 
   letter-spacing: 2px;
   margin:-50px
-}  
+} 
+#u1{
+  overflow-y:scroll;
+  padding: 0;
+  margin: 0;
+  font-family: Raleway-Light;
+  font-size: 18px;
+  width: 1060px;
+  margin: 40px auto;
+  text-align: center;
+}
 .card {
         position: relative;
         display: inline-block;
