@@ -28,7 +28,7 @@
 	 
 	   <p> <b>Supervisor</b>: <a href="https://www.linkedin.com/in/manoj-pandya-347b617a/">Dr Manoj Pandya</a>, 
 				   at Bhaskaracharya Institute for Space Applications and Geo-Informatics, India</p>
-	
+	   <p> <b>Members</b>: Tanuja Sawant, Rushabh Gandhi, Nikhil Verma</p>
 	   <p> <b>Duration</b>: 2 months</p>
 	   <p> <b>Link</b>: <a href="https://drive.google.com/open?id=1RO_v_zcGYH9flsmz0jXLi2YIUIFTviax"> Presentation Slides</a>, <a href="https://drive.google.com/file/d/1lnPaoh_LHLvUN3SC8DE--HK53C7oqRv9/view?usp=sharing">Project Report</a></p>
 	   <p> <b>Libraries used</b>: SciPy, GDAL, Scikit-Learn, Matplotlib, Numpy</p>
@@ -38,14 +38,26 @@
 	   
 	
 	   <p><font size="3"><b>PROBLEM ANALYSIS</b></p>
-		   
-	   <p>RESEARCH QUESTION: </p>
-	 <p><font size="3"><b>IDEATION</b></p>
-	  	   
-	   <p><font size="3"><b>PROGRAMMING</b></p>
+	   <p>It is possible to classify and detect changes in images manually by using software like QGIS.
+		   Our goal was to automate this process and assess the accuracy of each method by statistical
+		   analysis of the outputs. The end goal was to use the developed software to detect potential 
+		   illegal mining by training it to spot increase in mining areas over time. We read research papers, 
+		   blogs and articles about this topic.</p>
+	 
+	   <p><font size="3"><b>IDEATION</b></p>
+	   <p>We decided to use the newly developed object-based image classification mechanism as it gives better 
+		   results than the generally used pixel-based segmentation techniques. We followed the following procedure.</p>
 	  
+	   <p><font size="3"><b>PROGRAMMING</b></p>
+	   <p>After segmentation, features are extracted with the help of SciPy package. neural networks, 
+		   PCA and random forests were implemented using Python. Training points are defined from the shapefiles 
+		   and then the classifier is run on the training data which returns the classified output.</p>
+	   
 	   <p><font size="3"><b>TESTING</b></p>
-		   
+	   <p>Random forests performed the best with an accuracy of 97.7%. We used Multivariate Alteration and Detection 
+		   for change detection in two bitemporal, multispectral images. Instead of grouping the images by wavelengths,
+		   it groups them by similarities (correlation) to produce the final output which contains changes marked in 
+		   colour while unchanged areas are grey.</p>  
 
 	
       
