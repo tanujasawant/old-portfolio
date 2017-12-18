@@ -47,18 +47,24 @@
 	   <p><font size="3"><b>IDEATION</b></p>
 	   <p>We decided to use the newly developed object-based image classification mechanism as it gives better 
 		   results than the generally used pixel-based segmentation techniques. We followed the following procedure.</p>
-	  
+	  <img src="procdure.JPG" alt="image" style="width:850px;height:470px;">
+	   
 	   <p><font size="3"><b>PROGRAMMING</b></p>
 	   <p>After segmentation, features are extracted with the help of SciPy package. neural networks, 
 		   PCA and random forests were implemented using Python. Training points are defined from the shapefiles 
 		   and then the classifier is run on the training data which returns the classified output.</p>
-	   
+	  <img src="kmeans.JPG" alt="image" style="width:400px;height:450px;">
+	  <img src="train.JPG" alt="image" style="width:350px;height:450px;">
+	  <img src="seg.JPG" alt="image" style="width:600px;height:450px;">
+	  
 	   <p><font size="3"><b>TESTING</b></p>
 	   <p>Random forests performed the best with an accuracy of 97.7%. We used Multivariate Alteration and Detection 
 		   for change detection in two bitemporal, multispectral images. Instead of grouping the images by wavelengths,
 		   it groups them by similarities (correlation) to produce the final output which contains changes marked in 
 		   colour while unchanged areas are grey.</p>  
-
+	<img src="change.JPG" alt="image" style="width:850px;height:370px;">
+	 <img src="class.JPG" alt="image" style="width:350px;height:350px;">
+	   
 	
       
    </body>   
