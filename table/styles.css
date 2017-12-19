@@ -9,7 +9,9 @@ body{
   text-align: left;
 }
 u1{
-  font:15px "Raleway-Light";
+ font-size: 14px;
+ font-family: Raleway;
+ line-height: 2;
 }
 @font-face{
   font-family:Raleway-Lightimport;
