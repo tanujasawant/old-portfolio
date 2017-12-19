@@ -9,14 +9,7 @@ body{
   text-align: left;
 }
 u1{
-  overflow-y:scroll;
-  padding: 0;
-  margin: 0;
-  font-family: Raleway-Light;
-  font-size: 18px;
-  width: 1060px;
-  margin: 40px auto;
-  text-align: left;
+  font:15px "Raleway-Light";
 }
 @font-face{
   font-family:Raleway-Lightimport;
