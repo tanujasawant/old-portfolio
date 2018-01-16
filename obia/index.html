@@ -42,7 +42,7 @@
 	   <p>It is possible to classify and detect changes in images manually by using software like QGIS.
 		   Our goal was to automate this process and assess the accuracy of each method by statistical
 		   analysis of the outputs. The end goal was to use the developed software to detect potential 
-		   illegal mining by training it to spot increase in mining areas over time. We read research papers, 
+		   illegal mining by training it to spot the increase in mining areas over time. We read research papers, 
 		   blogs and articles about this topic.</p>
 	 
 	   <p><font size="3"><b>IDEATION</b></p>
@@ -51,18 +51,18 @@
 	  <img src="procedure.JPG" alt="image" style="width:950px;height:420px;">
 	   
 	   <p><font size="3"><b>PROGRAMMING</b></p>
-	   <p>After segmentation, features are extracted with the help of SciPy package. neural networks, 
-		   PCA and random forests were implemented using Python. Training points are defined from the shapefiles 
-		   and then the classifier is run on the training data which returns the classified output.</p>
+	   <p>After segmentation, features were extracted with the help of SciPy package. Neural networks, 
+		   PCA and Random forests were implemented using Python. Training points were defined from the shapefiles 
+		   and then finally, the classifier was run on the training data which returned the classified output.</p>
 	   <img src="seg.JPG" alt="image" style="width:540px;height:450px;">
 	  <img src="kmeans.JPG" alt="image" style="width:300px;height:430px;">
 	  <img src="train.JPG" alt="image" style="width:180px;height:450px;">
 	 
 	   <p><font size="3"><b>TESTING</b></p>
-	   <p>Random forests performed the best with an accuracy of 97.7%. We used Multivariate Alteration and Detection 
-		   for change detection in two bitemporal, multispectral images. Instead of grouping the images by wavelengths,
-		   it groups them by similarities (correlation) to produce the final output which contains changes marked in 
-		   colour while unchanged areas are grey.</p>  
+	   <p>Random forests performed the best with an accuracy of 97.7%. We used Multivariate Alteration and Detection (MAD) 
+		   for change detection between two bitemporal, multispectral images. Instead of grouping the images by wavelengths,
+		   MAD groups them by similarities (correlation) to produce the final output which contains changes marked in 
+		   colour while unchanged areas remain grey.</p>  
 	<img src="change.JPG" alt="image" style="width:810px;height:270px;">
 	
 <footer>
