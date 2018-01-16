@@ -32,6 +32,7 @@ body{
 }  
 a:link, a:visited {
     background-color: #F8F9F9;
+    font-size: 14px;
     color: #808B96;
     text-align: center;
     text-decoration: none;
@@ -45,6 +46,8 @@ p {
 
 a:hover, a:active {
     color: #2C3E50;
+    font-size: 14px;
+    
 }
 
 div.gallery {
